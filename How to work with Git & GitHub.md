@@ -13,3 +13,65 @@ Here are what steps you need to take to work with Git, GitHub, and GitHub Classr
 9.  Next, type in "git commit -m "<YOUR-COMMENT>"" to commit the changes.
 10. And lastly, type in "git push" to push your code to the remote repository on GitHub.
 11. Now you can go to your GitHub repository page to check your resutls.
+
+
+### **How to Clone a Repository from GitHub**  
+
+#### **Step 1: Copy the Repository URL**
+1. Go to the GitHub repository you want to clone.  
+2. Click on the **"Code"** button (Green button).  
+3. Copy the **HTTPS URL** (e.g., `https://github.com/your-username/repo-name.git`).  
+
+---
+
+#### **Step 2: Open Terminal (Command Line)**
+- On **Windows**: Open **Git Bash** or **Command Prompt** (`cmd`).  
+- On **Mac/Linux**: Open **Terminal**.  
+
+---
+
+#### **Step 3: Navigate to the Folder Where You Want to Clone the Repo**
+Use the `cd` command to change to your desired directory.  
+For example, to clone into the **Documents** folder:  
+
+```sh
+cd ~/Documents
+```
+
+---
+
+#### **Step 4: Clone the Repository**
+Run the following command:  
+
+```sh
+git clone https://github.com/your-username/repo-name.git
+```
+
+✅ **Example:**  
+```sh
+git clone https://github.com/ghalipm-vanier-college/starter-front-end-web-programming-w2025-day01.git
+```
+
+---
+
+#### **Step 5: Navigate into the Cloned Repository**
+After cloning, move into the project folder:  
+
+```sh
+cd repo-name
+```
+
+---
+
+#### **Step 6: Verify the Cloning Was Successful**
+Run:  
+```sh
+git status
+```
+If the repository is successfully cloned, it will show:  
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+```
+
+Now you're ready to start working on your cloned GitHub repository! 🚀
