@@ -14,6 +14,68 @@ Here are what steps you need to take to work with Git, GitHub, and GitHub Classr
 10. And lastly, type in "git push" to push your code to the remote repository on GitHub.
 11. Now you can go to your GitHub repository page to check your resutls.
 
+### **How to Install Git on Windows**  
+
+#### **Step 1: Download Git for Windows**  
+1. Go to the official Git website:  
+   👉 [https://git-scm.com/downloads](https://git-scm.com/downloads)  
+2. Click **"Download for Windows"** – It will automatically detect your Windows version (64-bit/32-bit).  
+3. Once the installer (`.exe` file) is downloaded, open it.  
+
+---
+
+#### **Step 2: Install Git**
+1. **Run the installer** and follow the setup wizard.  
+2. **Choose the installation location** (default is `C:\Program Files\Git`). Click **Next**.  
+3. **Select components** (leave default selections unless you need specific options). Click **Next**.  
+4. **Choose default editor** (Select **Notepad++**, **VS Code**, or **Vim**). Click **Next**.  
+5. **Adjust PATH environment**  
+   - Choose **"Git from the command line and also from 3rd-party software"** (recommended).  
+   - Click **Next**.  
+6. **Choose HTTPS transport backend**  
+   - Select **"Use the OpenSSL library"** (default). Click **Next**.  
+7. **Choose line-ending conversion**  
+   - Select **"Checkout Windows-style, commit Unix-style line endings"** (recommended). Click **Next**.  
+8. **Choose terminal emulator**  
+   - Select **"Use MinTTY (default terminal for Git Bash)"**. Click **Next**.  
+9. **Enable extra options** (default settings are fine). Click **Install**.  
+10. **Wait for the installation to complete**, then click **Finish**.  
+
+---
+
+#### **Step 3: Verify Git Installation**  
+1. Open **Command Prompt (cmd)** or **Git Bash**  
+2. Run the following command:  
+
+   ```sh
+   git --version
+   ```
+
+   ✅ If Git is installed correctly, it will show a version number like:  
+   ```
+   git version 2.x.x
+   ```
+
+---
+
+#### **Step 4: Configure Git (First-Time Setup)**
+1. Set your username:  
+   ```sh
+   git config --global user.name "Your Name"
+   ```
+2. Set your email:  
+   ```sh
+   git config --global user.email "your.email@example.com"
+   ```
+3. Check your Git configuration:  
+   ```sh
+   git config --list
+   ```
+
+Now you're ready to use Git on Windows! 🎉 🚀
+
+
+
 
 ### **How to Clone a Repository from GitHub**  
 
