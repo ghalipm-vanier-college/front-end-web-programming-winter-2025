@@ -46,12 +46,6 @@ Run the following command:
 ```sh
 git clone https://github.com/your-username/repo-name.git
 ```
-
-✅ **Example:**  
-```sh
-git clone https://github.com/ghalipm-vanier-college/starter-front-end-web-programming-w2025-day01.git
-```
-
 ---
 
 #### **Step 5: Navigate into the Cloned Repository**
