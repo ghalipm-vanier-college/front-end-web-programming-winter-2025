@@ -131,3 +131,91 @@ Your branch is up to date with 'origin/main'.
 ```
 
 Now you're ready to start working on your cloned GitHub repository! 🚀
+
+### **How to Push Your Local Code to GitHub**
+To push your local code to GitHub using the command line, follow these steps:
+
+### **1. Initialize Git (if not already initialized)**
+Navigate to your project folder in the terminal and run:
+```sh
+cd /path/to/your/project  # Change to your project directory
+git init  # Initialize a new Git repository
+```
+
+### **2. Connect to GitHub Repository**
+If you haven't already created a GitHub repository, create one at [GitHub](https://github.com/) and copy the repository URL.
+
+Then, link your local repository to GitHub:
+```sh
+git remote add origin https://github.com/your-username/your-repository.git
+```
+To verify the remote repository, run:
+```sh
+git remote -v
+```
+
+### **3. Add and Commit Your Code**
+```sh
+git add .  # Adds all files to staging
+git commit -m "Initial commit"  # Commit with a message
+```
+
+### **4. Push Code to GitHub**
+If this is your first push, set the main branch and push:
+```sh
+git branch -M main  # Rename the branch to main (if not already main)
+git push -u origin main  # Push to GitHub
+```
+
+For subsequent pushes, use:
+```sh
+git push origin main
+```
+
+### **5. Authenticate (if prompted)**
+If using HTTPS, GitHub may ask for your credentials. You can avoid this by setting up SSH authentication.
+
+### **Dealing with Unrelated History Issue**
+
+If you're getting the `fatal: refusing to merge unrelated histories` error because your local repository and the remote repository have completely different histories. This usually happens when:  
+- Your local repository was initialized separately (e.g., with `git init`) and isn't linked to the remote repo.  
+- The remote repository already has commits that don't share a common ancestor with your local commits.  
+
+### **Solution 1: Allow Unrelated Histories (Recommended for First-Time Pull)**
+If you are sure you want to merge the remote code with your local repository, use the `--allow-unrelated-histories` flag:  
+
+```sh
+git pull --allow-unrelated-histories https://github.com/your-repo-name.git main
+```
+
+This forces Git to merge the remote history with your local history.
+
+---
+
+### **Solution 2: Clone Instead of Pull (Recommended for Fresh Start)**
+If you haven't committed anything locally yet, it's often easier to **delete your local folder** and re-clone the repository:
+
+```sh
+rm -rf FrontEndWebProgW2025/Day01  # CAREFUL: This deletes your local folder!
+git clone https://github.com/your-repo-name.git
+```
+
+This way, you start with a fresh copy of the remote repository without history conflicts.
+
+---
+
+### **Solution 3: Add Remote & Fetch Manually (If You Already Have Local Commits)**
+If you've made local commits that you don’t want to lose, you can **manually add the remote, fetch changes, and merge**:
+
+```sh
+git remote add origin https://github.com/your-repo-name.git
+git fetch origin main
+git merge origin/main --allow-unrelated-histories
+```
+
+This merges the remote `main` branch into your local branch.
+
+
+
+
+
