@@ -73,11 +73,6 @@ A full example of a possible starter page with BS5:
   </div>
 </div>
 
-<div class="container-fluid p-3 bg-black text-black text-center">
-<button type="button" class="btn btn-dark">ACTION BUTTON</button>
-
-</div>
-
 </body>
 </html>
 
