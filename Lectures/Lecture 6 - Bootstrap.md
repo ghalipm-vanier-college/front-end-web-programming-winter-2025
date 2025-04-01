@@ -5,7 +5,7 @@ Both **Bootstrap** and **Tailwind CSS** are widely used CSS frameworks for web d
 - **Bootstrap** provides **pre-built components** and a **grid system**, enabling **rapid development** with minimal custom styling.  
 - **Tailwind CSS** follows a **utility-first approach**, offering highly customizable and flexible designs without relying on predefined components.  
 
-Bootstrap requires specific metadata, CSS links, and a JavaScript bundle to be included in an HTML5 file:  
+Bootstrap(BS5) requires specific metadata, CSS links, and a JavaScript bundle to be included in an HTML5 file:  
 
 ```html
 <!DOCTYPE html>
@@ -34,4 +34,51 @@ Container can have one or multiple rows and specific row can have one or more co
     </div>
   </div>
 </body>
-````
+```
+A full example of a possible starter page with BS5:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-3 bg-light text-grey text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+  
+<div class="container-fluid mt-3">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid p-3 bg-black text-black text-center">
+<button type="button" class="btn btn-dark">ACTION BUTTON</button>
+
+</div>
+
+</body>
+</html>
+
+```
