@@ -10,6 +10,7 @@ Bootstrap requires specific metadata, CSS links, and a JavaScript bundle to be i
 ```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8"> <!-- charset for bootstrap-->
@@ -17,6 +18,8 @@ Bootstrap requires specific metadata, CSS links, and a JavaScript bundle to be i
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- styling for bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- bundle JS script for bootstrap-->
 </head>
+
+</html>
 ```
 Basic structure of Bootstrap consists of contanier, row, column. 
 Container can have one or multiple rows and specific row can have one or more columns. 
