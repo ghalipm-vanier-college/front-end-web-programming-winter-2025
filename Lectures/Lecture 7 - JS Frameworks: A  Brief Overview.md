@@ -1,6 +1,6 @@
-***Overview, Learning Curve, Performance, Scalability, Ecosystem, Community/Support, Use Cases, and Pros/Cons***
+##  Overview, Learning Curve, Performance, Scalability, Ecosystem, Community/Support, Use Cases, and Pros/Cons
 
-***1. Overview***
+### 1. Overview
 
 ***Vanilla JavaScript***
 
@@ -34,7 +34,7 @@
 
 ***Core Concept***: Component-based architecture with two-way data binding, dependency injection, and TypeScript as the primary language. Angular provides a complete solution with routing, forms, and HTTP handling built-in.
 
-***2. Learning Curve***
+### 2. Learning Curve
 
 ***Vanilla JavaScript***
 
@@ -78,10 +78,11 @@ Angular’s CLI and structure can feel overwhelming for beginners.
 
 ***Example***: Angular would be overkill for your TinDog website or product page, but if you were building a full dog-matching app with user authentication, profiles, and real-time chat, Angular’s structure would be beneficial.
 
-***3. Performance***
+### 3. Performance
 
-Vanilla JavaScript
-Performance: High.
+***Vanilla JavaScript***
+
+***Performance***: High.
 No overhead from frameworks/libraries, so it’s the fastest in terms of raw execution.
 However, performance depends on how you write your code. Poor DOM manipulation (e.g., frequent updates) can lead to slowdowns.
 Your Context: For your TinDog website, Vanilla JS was performant because you only needed basic interactivity (e.g., carousel navigation).
