@@ -1,7 +1,8 @@
 ##  Overview, Learning Curve, Performance, Scalability, Use Cases, and Pros/Cons
 
 ### 1. Tabular Overview [table]
-
+[Open Table ](https://github.com/ghalipm-vanier-college/front-end-web-programming-winter-2025/blob/main/Lectures/Lecture%207_JSF_Comparison_Table.html
+)
   ***Column Items***
   
   ***Type***: Whether it’s a language, library, or framework.
