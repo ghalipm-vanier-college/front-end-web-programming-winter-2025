@@ -2,21 +2,21 @@
 
 ### 1. Tabular Overview [table]
 
-***Column Items***
-
-***Type***: Whether it’s a language, library, or framework.
-
-***Learning Curve***: How easy it is to learn, based on concepts and syntax.
-
-***Performance***: Speed and efficiency (e.g., DOM handling, bundle size).
-
-***Scalability***: How well it handles growing app complexity.
-
-***Ecosystem***: Available tools and libraries for development.
-
-***Best For***: Ideal use cases for each.
-
-***Context***: How each applies to your projects
+  ***Column Items***
+  
+  ***Type***: Whether it’s a language, library, or framework.
+  
+  ***Learning Curve***: How easy it is to learn, based on concepts and syntax.
+  
+  ***Performance***: Speed and efficiency (e.g., DOM handling, bundle size).
+  
+  ***Scalability***: How well it handles growing app complexity.
+  
+  ***Ecosystem***: Available tools and libraries for development.
+  
+  ***Best For***: Ideal use cases for each.
+  
+  ***Context***: How each applies to your projects
 
 ***Key Takeaways for Projects***
 
