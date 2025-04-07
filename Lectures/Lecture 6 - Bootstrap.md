@@ -22,7 +22,7 @@ Bootstrap(BS5) requires specific metadata, CSS links, and a JavaScript bundle to
 </html>
 ```
 Basic structure of Bootstrap consists of contanier, row, column. 
-Container can have one or multiple rows and specific row can have one or more columns. 
+Container can have one or multiple rows(divs) and specific row can have one or more columns(divs). 
 
 ```html
 <body>
