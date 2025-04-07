@@ -2,9 +2,6 @@
 
 ### 1. Tabular Overview 
 
-[Open Table website ](< a=href:"https://github.com/ghalipm-vanier-college/front-end-web-programming-winter-2025/blob/main/Lectures/Lecture%207_JSF_Comparison_Table.html" target="_blank" >)
-
-
   ***Column Items***
   
   ***Type***: Whether it’s a language, library, or framework.
