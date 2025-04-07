@@ -77,3 +77,35 @@ Angular’s CLI and structure can feel overwhelming for beginners.
 ***Who It’s For***: Developers building large-scale, enterprise-level applications with complex requirements.
 
 ***Example***: Angular would be overkill for your TinDog website or product page, but if you were building a full dog-matching app with user authentication, profiles, and real-time chat, Angular’s structure would be beneficial.
+
+***3. Performance***
+
+Vanilla JavaScript
+Performance: High.
+No overhead from frameworks/libraries, so it’s the fastest in terms of raw execution.
+However, performance depends on how you write your code. Poor DOM manipulation (e.g., frequent updates) can lead to slowdowns.
+Your Context: For your TinDog website, Vanilla JS was performant because you only needed basic interactivity (e.g., carousel navigation).
+
+***Vue.js***
+
+***Performance***: Very Good.
+Uses a virtual DOM for efficient updates, similar to React.
+Vue’s reactivity system is optimized, and its small bundle size (around 20KB) makes it lightweight.
+Your Context: In your Vue.js product page, Vue’s reactivity (e.g., updating product.price after a discount) was efficient, with minimal overhead.
+
+***React***
+***Performance***: Very Good.
+
+Also uses a virtual DOM, with optimizations like concurrent rendering in React 18.
+Can be slower than Vue for certain operations due to its larger ecosystem and potential for over-rendering if not optimized (e.g., using useMemo or useCallback).
+
+***Context***: React would perform well for a smaller website, but you’d need to manage state carefully to avoid unnecessary re-renders.
+
+***Angular***
+
+***Performance***: Good.
+
+Uses a real DOM with change detection, which can be slower than a virtual DOM for large applications.
+Angular’s bundle size is larger (due to its comprehensive nature), but features like Ahead-of-Time (AOT) compilation improve runtime performance.
+
+***Context***: Angular’s performance would be overkill for small projects, but it shines in large apps with many components and frequent updates.
